@@ -10,10 +10,23 @@ html{
 
 header{
     font-size: 2rem;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 100px;
+    grid-template-columns: 1fr 10fr 3fr;
+    justify-items: center;
+}
+
+header > h1{
+}
+
+header > nav{
+    justify-self: end;
 }
 
 #logo{
     width: 75px;
+    align-self: center;
 }
 .post > h2 {
     font-size: 1.5em;
