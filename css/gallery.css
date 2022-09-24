@@ -11,3 +11,20 @@ html{
     grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
     grid-auto-rows: min-content;
 }
+
+img{
+    height: 250px;
+}
+
+.post{
+    display: grid;
+    border: 2px dashed cyan;
+    justify-items: center;
+    align-items: center;
+    /* grid-auto-rows: 400px; */
+}
+
+p{
+    text-align: center;
+    margin: 10%;
+}
